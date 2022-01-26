@@ -52,7 +52,6 @@ public class Clock extends JPanel implements Runnable {
 	 * @see javax.swing.JComponent#paint()
 	 */
 	private void drawStructure(Graphics g) {
-		g.setFont(new Font("TimesRoman", Font.BOLD, 20));
 		g.setColor(Color.black);
 		g.fillOval(xcenter - 150, ycenter - 150, 300, 300);
 		g.setColor(Color.blue);
